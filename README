@@ -1,0 +1,39 @@
+Graphitte icons theme for Sylpheed-Claws
+----------------------------------------
+
+
+1. Installation
+
+   Needs Sylpheed-Claws 0.7.0claws59 or later.
+
+   a. User installation:
+
+      cd ~/.sylpheed/themes 
+      gzip -dc Graphitte.tar.gz | tar xf -
+
+   b. System wide installation:
+
+      as root:
+
+      cd $SYLPHEED_PREFIX/share/sylpheed/themes
+      gzip -dc Graphitte.tar.gz | tar xf -
+
+      where $SYLPHEED_PREFIX is the prefix used when configuring Sylpheed
+      (usually /usr/local or /usr).
+
+    After installation, run sylpheed and search for the Pixmap theme
+    option somewhere in <Configuration/Common Preferences>.
+
+
+2. Notes and copyrights
+
+   This theme was made mainly from scratch, which I put in public domain, 
+   except the addressbook icon which is based on the original one, and has
+   its same license. 
+   Other icons are the originals included with Sylpheed Claws and have
+   the original license and copyrights.
+   README file style/contents borrowed from Melvin Hadasht's XeNtish theme.
+
+   (c) 2003  by Ricardo Mones Lastra <mones@aic.uniovi.es>
+   http://www.aic.uniovi.es/themes/sylpheed/Graphitte.html
+   
